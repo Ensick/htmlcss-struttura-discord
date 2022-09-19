@@ -6,7 +6,7 @@
 }
 
 header{
-    background-color: black;
+    background-color: gray;
 }
 
 nav{
@@ -23,9 +23,56 @@ nav{
     justify-content: space-between;
 }
 
+.justify-content-center{
+    justify-content: center;
+}
+
 .box-titolo{
     width: 60%;
     margin: auto;
     background-color: aqua;
     text-align: center;
+}
+
+main{
+    background-color: bisque;
+}
+
+.contenitore1{
+    width: 80%;
+    margin: auto;
+    background-color: blueviolet;
+}
+
+
+
+.contenitore2{
+    background-color: red;
+    width: 80%;
+    margin: auto;
+}
+
+.contenitore3{
+    background-color: coral;
+    width: 80%;
+    margin: auto;
+}
+
+.contenitore4{
+    background-color: pink;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.flex-direction-column{
+    flex-direction: column;
+}
+
+.col1{
+    background-color: aqua;
+}
+
+.col2{
+    background-color: aliceblue;
 }
