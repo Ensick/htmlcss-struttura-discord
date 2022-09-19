@@ -19,6 +19,15 @@ nav{
     display: flex;
 }
 
+.flex-basis{
+    flex-basis: 20%;
+}
+
+.flex-direction-column{
+    flex-direction: column;
+}
+
+
 .justify-content-space-between{
     justify-content: space-between;
 }
@@ -44,8 +53,6 @@ main{
     background-color: blueviolet;
 }
 
-
-
 .contenitore2{
     background-color: red;
     width: 80%;
@@ -65,8 +72,10 @@ main{
     text-align: center;
 }
 
-.flex-direction-column{
-    flex-direction: column;
+.contenitore5{
+    background-color: lightgray;
+    width: 80%;
+    margin: auto;
 }
 
 .col1{
@@ -75,4 +84,12 @@ main{
 
 .col2{
     background-color: aliceblue;
+}
+
+.sfondo{
+    background-color: yellowgreen;
+}
+
+footer{
+    background-color: aquamarine;
 }
